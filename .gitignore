@@ -1,0 +1,47 @@
+# IntelliJ IDEA
+.idea/
+
+# Compiled files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains-specific files
+*.iml
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/jsLibraryMappings.xml
+
+# User-specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or private information
+secrets.properties
