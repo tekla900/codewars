@@ -1,4 +1,5 @@
 import eight_kyu.*;
+import seven_kyu.ExesAndOhs;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -38,5 +39,7 @@ public class Main {
         String input = "23542";
         String output = FakeBinary.fakeBin(input);
         System.out.println(output);
+
+        System.out.println(ExesAndOhs.getXO("xasOOo"));
     }
 }
