@@ -34,5 +34,9 @@ public class Main {
         Object valueToCheck = "apple";
         boolean res = check(array, valueToCheck);
         System.out.println(res);
+
+        String input = "23542";
+        String output = FakeBinary.fakeBin(input);
+        System.out.println(output);
     }
 }
