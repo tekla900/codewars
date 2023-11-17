@@ -25,5 +25,7 @@ public class Main {
         int[] result = multiples.find(2, 8);
 
         System.out.println(Arrays.toString(result));
+
+        System.out.println(VowelRemover.shortcut("abcde"));
     }
 }
