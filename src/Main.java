@@ -3,6 +3,8 @@ import eight_kyu.*;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+import static eight_kyu.YouOnlyNeedOneB.check;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +29,10 @@ public class Main {
         System.out.println(Arrays.toString(result));
 
         System.out.println(VowelRemover.shortcut("abcde"));
+
+        Object[] array = {1, "apple", 3.14, "banana"};
+        Object valueToCheck = "apple";
+        boolean res = check(array, valueToCheck);
+        System.out.println(res);
     }
 }

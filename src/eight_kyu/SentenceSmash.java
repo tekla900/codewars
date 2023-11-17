@@ -8,7 +8,9 @@ package eight_kyu;
 * Be careful, there shouldn't be a space at the beginning or the end of the sentence!
 */
 
-//public class SentenceSmash {
+import java.util.Arrays;
+
+public class SentenceSmash {
 //    public static String smash(String... words) {
 //        // TODO Write your code below this comment please
 //    }
@@ -16,4 +18,5 @@ package eight_kyu;
 //    public String toString(){//overriding the toString() method
 //        return rollno+" "+name+" "+city;
 //    }
-//}
+}
+
